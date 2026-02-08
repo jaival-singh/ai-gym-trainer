@@ -53,15 +53,18 @@ python -m venv .venv
 source .venv/bin/activate          # Linux/macOS
 # .venv\Scripts\activate           # Windows
 pip install -r requirements.txt
-
+```
 ## Run CLI
 
 ### Exercise Mode
+``` bash
 python -m src.main --mode exercise --exercise bicep_curl
 python -m src.main --mode exercise --exercise squat --width 1280 --height 720
-
+```
 ### Pose Mode
+```
 python -m src.main --mode pose --pose double_biceps
 
 Run (Web UI)
+```
 python -m src.web.app
