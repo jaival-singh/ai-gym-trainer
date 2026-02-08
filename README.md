@@ -65,6 +65,7 @@ python -m src.main --mode exercise --exercise squat --width 1280 --height 720
 ```
 python -m src.main --mode pose --pose double_biceps
 
-Run (Web UI)
+## Run (Web UI)
 ```
 python -m src.web.app
+```
